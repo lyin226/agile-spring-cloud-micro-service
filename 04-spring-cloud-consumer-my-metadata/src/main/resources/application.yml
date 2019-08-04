@@ -1,0 +1,13 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: 04-spring-cloud-consumer-my-metadata
+provider:
+  url: http://localhost:8000/user/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true

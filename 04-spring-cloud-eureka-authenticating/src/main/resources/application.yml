@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 04-spring-cloud-eureka-authenticating
+server:
+  port: 8763                    # 指定该Eureka实例的端口
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: 123456
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8763/eureka/

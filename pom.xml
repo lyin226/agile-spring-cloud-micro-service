@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.spring.cloud</groupId>
+    <artifactId>spring.cloud.demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>03-spring-cloud-consumer</module>
+        <module>03-spring-cloud-provider</module>
+        <module>04-spring-cloud-eureka</module>
+        <module>04-spring-cloud-eureka-authenticating</module>
+        <module>04-spring-cloud-eureka-ha</module>
+        <module>04-spring-cloud-consumer</module>
+        <module>04-spring-cloud-provider</module>
+        <module>04-spring-cloud-consumer-my-metadata</module>
+        <module>04-spring-cloud-provider-my-metadata</module>
+        <module>05-spring-cloud-consumer-ribbon</module>
+        <module>05-spring-cloud-consumer-ribbon-custom</module>
+        <module>05-spring-cloud-consumer-ribbon-custom-properties</module>
+        <module>05-spring-cloud-provider</module>
+        <module>05-spring-cloud-provider-ha</module>
+    </modules>
+    <packaging>pom</packaging>
+
+</project>
