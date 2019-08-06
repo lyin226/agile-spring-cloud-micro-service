@@ -26,6 +26,10 @@
         <module>05-spring-cloud-consumer-ribbon-custom-properties</module>
         <module>05-spring-cloud-provider</module>
         <module>05-spring-cloud-provider-ha</module>
+        <module>06-spring-cloud-consumer-feign</module>
+        <module>06-spring-cloud-consumer-feign-custom</module>
+        <module>06-spring-cloud-provider</module>
+        <module>06-spring-cloud-consumer-feign-manual</module>
     </modules>
     <packaging>pom</packaging>
 
