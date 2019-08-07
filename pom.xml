@@ -30,6 +30,7 @@
         <module>06-spring-cloud-consumer-feign-custom</module>
         <module>06-spring-cloud-provider</module>
         <module>06-spring-cloud-consumer-feign-manual</module>
+        <module>07-spring-cloud-consumer-ribbon-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
