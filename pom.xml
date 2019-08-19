@@ -31,6 +31,10 @@
         <module>06-spring-cloud-provider</module>
         <module>06-spring-cloud-consumer-feign-manual</module>
         <module>07-spring-cloud-consumer-ribbon-hystrix</module>
+        <module>07-spring-cloud-consumer-feign-hystrix-fallback</module>
+        <module>07-spring-cloud-hystrix-dashboard</module>
+        <module>07-spring-cloud-consumer-feign-hystrix-fallback-stream</module>
+        <module>07-spring-cloud-hystrix-turbine</module>
     </modules>
     <packaging>pom</packaging>
 
