@@ -35,6 +35,9 @@
         <module>07-spring-cloud-hystrix-dashboard</module>
         <module>07-spring-cloud-consumer-feign-hystrix-fallback-stream</module>
         <module>07-spring-cloud-hystrix-turbine</module>
+        <module>08-spring-cloud-gateway-zuul</module>
+        <module>08-spring-cloud-gateway-zuul-filter</module>
+        <module>08-spring-cloud-sidecar</module>
     </modules>
     <packaging>pom</packaging>
 
