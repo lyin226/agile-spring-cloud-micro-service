@@ -1,0 +1,17 @@
+server:
+  port: 9411
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: s-rabbitmq1.qa.bj4.daling.com:5672
+      password: daling
+      username: daling
+      queue: zipkin
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      cluster: elasticsearch
+      hosts: http://localhost:9200
+      index: zipkin
+      index-shards: 5
+      index-replicas: 1

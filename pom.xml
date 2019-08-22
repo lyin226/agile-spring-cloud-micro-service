@@ -38,6 +38,14 @@
         <module>08-spring-cloud-gateway-zuul</module>
         <module>08-spring-cloud-gateway-zuul-filter</module>
         <module>08-spring-cloud-sidecar</module>
+        <module>10-spring-cloud-provider-trace</module>
+        <module>10-spring-cloud-trace-zipkin-server</module>
+        <module>10-spring-cloud-provider-trace-zipkin</module>
+        <module>10-spring-cloud-consumer-trace-zipkin</module>
+        <module>10-spring-cloud-trace-zipkin-server-stream</module>
+        <module>10-spring-cloud-provider-trace-zipkin-stream</module>
+        <module>10-spring-cloud-consumer-trace-zipkin-stream</module>
+        <module>10-spring-cloud-trae-zip-server-stream-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 

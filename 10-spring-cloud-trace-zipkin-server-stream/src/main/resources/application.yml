@@ -1,0 +1,9 @@
+server:
+  port: 9411
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: s-rabbitmq1.qa.bj4.daling.com:5672
+      password: daling
+      username: daling
+      queue: zipkin
